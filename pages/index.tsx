@@ -16,6 +16,7 @@ export default function Home() {
       </Head>
       <main className={styles.main}>
         <h1>THIS IS {process.env.NEXT_PUBLIC_ENV}</h1>
+        <h2>THIS IS {process.env.NEXT_PUBLIC_VERCEL_ENV}</h2>
         <div className={styles.description}>
           <p>
             Get started by editing&nbsp;
